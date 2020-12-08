@@ -1,23 +1,11 @@
-export default locations = {
-    battleFactory: {
-        name: "Battle Factory",
-    },
-    battleArena: {
-        name: "Battle Arena",
-    },
-    battleDome: {
-        name: "Battle Dome",
-    },
-    battlePike: {
-        name: "Battle Pike",
-    },
-    battlePalace: {
-        name: "Battle Palace"
-    },
-    battlePyramid: {
-        name: "Battle Pyramid",
-    },
-    battleTower: {
-        name: "Battle Tower"
-    }
-}
+const locations = [
+    { name: "Battle Factory", },
+    { name: "Battle Arena", },
+    { name: "Battle Dome", },
+    { name: "Battle Pike", },
+    { name: "Battle Palace" },
+    { name: "Battle Pyramid", }, 
+    { name: "Battle Tower" }
+]
+
+export default locations;
